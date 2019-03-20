@@ -44,7 +44,7 @@ Please ask your instructor for your password.
 
     ![00-open-terminal.png](images/00-open-terminal.png "Open Terminal")
 
-1. In Openshift console (https://master.boston-a12a.openshiftworkshop.com).
+1. In Openshift console (https://master.cinci-1b3f.openshiftworkshop.com).
 
 	![00-openshift-loginpage.png](images/00-openshift-loginpage.png "Commend Login")
 
@@ -55,7 +55,7 @@ Please ask your instructor for your password.
 1. Login to Openshift via the Terminal window and paste the commend to the terminal:
 
     ```bash
-    oc login https://master.boston-a12a.openshiftworkshop.com --token=XXXXX
+    oc login https://master.cinci-1b3f.openshiftworkshop.com --token=XXXXX
     ```
 
 
@@ -79,7 +79,7 @@ Please ask your instructor for your password.
 
     ![00-verify-wsdl.png](images/00-verify-wsdl.png "Verify WSDL")
 
-1. Return to your CodeReady workspace and open the `dayintelife-import/location-soap2rest` project.  Open the `pom.xml` file and scroll to the bottom.  Uncomment out the `cxf-codegen-plugin` entry at the bottom.  Update the `<wsdl>` entry with your fully qualified WSDL URL e.g. `http://location-soap-userX.apps.boston-a12a.openshiftworkshop.com/ws/location?wsdl`. *Be sure to replace userX with your username.*
+1. Return to your CodeReady workspace and open the `dayintelife-import/location-soap2rest` project.  Open the `pom.xml` file and scroll to the bottom.  Uncomment out the `cxf-codegen-plugin` entry at the bottom.  Update the `<wsdl>` entry with your fully qualified WSDL URL e.g. `http://location-soap-userX.apps.cinci-1b3f.openshiftworkshop.com/ws/location?wsdl`. *Be sure to replace userX with your username.*
 
     ![00-uncomment-codegen.png](images/00-uncomment-codegen.png "Uncomment codegen plugin")
 
