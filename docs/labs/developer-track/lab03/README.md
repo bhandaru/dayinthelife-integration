@@ -36,7 +36,7 @@ Please ask your instructor for your password.
 If you haven't done so already, you need to login to the **Red Hat Solution Explorer** webpage so that a unique lab environment can be provisioned on-demand for your exclusive use.  You should open a web browser and navigate to:
 
 ```bash
-https://tutorial-web-app-webapp.apps.boston-a12a.openshiftworkshop.com
+https://tutorial-web-app-webapp.apps.cinci-1b3f.openshiftworkshop.com
 ```
 
 You will be presented with a login page where you can enter your unique credentials:
@@ -75,7 +75,7 @@ Once the environment is provisioned, you will be presented with a page that pres
 1. Open a browser window and navigate to:
 
     ```bash
-    https://master.boston-a12a.openshiftworkshop.com/console
+    https://master.cinci-1b3f.openshiftworkshop.com/console
     ```
 
 1. Click on your unique namespace to enter your workspace e.g. `user39`.
@@ -104,7 +104,7 @@ Once the environment is provisioned, you will be presented with a page that pres
 
     ![00-import-project.png](images/00-import-project.png "Import Project")
 
-1. Enter `http://gogs.apps.boston-a12a.openshiftworkshop.com/userX/dayintheliferepo` as the git URL, making sure to update `userX` with your unique username.  Select **Import Recursively** and then click **Import**.
+1. Enter `http://gogs.apps.cinci-1b3f.openshiftworkshop.com/userX/dayintheliferepo` as the git URL, making sure to update `userX` with your unique username.  Select **Import Recursively** and then click **Import**.
 
 1. When the "Save" pop-up appears, click the "X" to close the pop-up.
 
@@ -397,7 +397,7 @@ Once you've received the swagger specification (API contract) from your friendly
 1. Lastly, via the CodeReady Workspaces' terminal, test the HTTP POST using curl.  You can use the following command:
 
     ```bash
-	curl --header "Content-Type: application/json" --request POST --data '{"id": 101,"name": "Kakadu","type": "HQ","status": "1","location": {"lat": "78.88436","lng": "99.05295"}}' http://location-service-OCPPROJECT.apps.boston-a12a.openshiftworkshop.com/locations
+	curl --header "Content-Type: application/json" --request POST --data '{"id": 101,"name": "Kakadu","type": "HQ","status": "1","location": {"lat": "78.88436","lng": "99.05295"}}' http://location-service-OCPPROJECT.apps.cinci-1b3f.openshiftworkshop.com/locations
     ```
 
     Remember to replace OCPPROJECT with your username.
