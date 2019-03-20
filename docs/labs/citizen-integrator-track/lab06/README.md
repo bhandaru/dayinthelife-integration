@@ -61,7 +61,7 @@ Once the environment is provisioned, you will be presented with a page that pres
 
 OpenShift let you automatically redeploy your changes when you setup a Continuous Integration / Continuous Deployment (CI/CD) pipeline through the use of webhook. For this lab we will trigger the new build and deployment manually through the OpenShift Console.
 
-1. Open your OpenShift web console by navigating to `https://master.boston-a12a.openshiftworkshop.com/console/catalog`. Navigate to your project's overview page. It will be called `UserX Project` (replacing X with your username).
+1. Open your OpenShift web console by navigating to `https://master.cinci-1b3f.openshiftworkshop.com/console/catalog`. Navigate to your project's overview page. It will be called `UserX Project` (replacing X with your username).
 
 1. Scroll down and click in the www link in the BUILDS section.
 
