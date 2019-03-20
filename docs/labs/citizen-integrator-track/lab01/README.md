@@ -17,7 +17,7 @@ Red Hat is one of the founding members of the Linux Foundation OpenAPI Initiativ
 
 ### Skipping The Lab
 
-If you are planning to skip this lab and follow the next one, here is a [link](https://github.com/sigreen/dayinthelife-integration/tree/v2-boston/docs/labs/citizen-integrator-track/resources) to the specification generated in this lab.
+If you are planning to skip this lab and follow the next one, here is a [link](https://github.com/bhandaru/dayinthelife-integration/tree/v2-boston/docs/labs/citizen-integrator-track/resources) to the specification generated in this lab.
 
 ### Environment
 
@@ -36,7 +36,7 @@ Please ask your instructor for your password.
 If you haven't done so already, you need to login to the **Red Hat Solution Explorer** webpage so that a unique lab environment can be provisioned on-demand for your exclusive use.  You should open a web browser and navigate to:
 
 ```bash
-https://tutorial-web-app-webapp.apps.boston-a12a.openshiftworkshop.com
+https://tutorial-web-app-webapp.apps.cinci-1b3f.openshiftworkshop.com
 ```
 
 You will be presented with a login page where you can enter your unique credentials:
@@ -58,7 +58,7 @@ Once the environment is provisioned, you will be presented with a page that pres
 1. Open a browser window and navigate to:
 
     ```bash
-    http://apicurio-studio.apps.boston-a12a.openshiftworkshop.com
+    http://apicurio-studio.apps.cinci-1b3f.openshiftworkshop.com
     ```
 
 1. Log in using your designated [user and password](#environment).
