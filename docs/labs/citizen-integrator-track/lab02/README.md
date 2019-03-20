@@ -109,7 +109,7 @@ We now have a working REST mock service listening for requests. We will use an o
 1. Enter the copied URL from **Step 9**. It should look like this:
 
     ```bash
-    http://microcks.apps.boston-a12a.openshiftworkshop.com/rest/Locations-User1/1.0.0/locations
+    http://microcks.apps.cinci-1b3f.openshiftworkshop.com/rest/Locations-User1/1.0.0/locations
     ```
 
 1. Click the **START YOUR CURL** button.
