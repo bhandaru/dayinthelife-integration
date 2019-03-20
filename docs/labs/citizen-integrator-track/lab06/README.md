@@ -179,7 +179,7 @@ International Inc web development create a Node.js application for the company h
 
 1. In the developer console, a red error should appear indicating a cert issue. Click on the link and accept the certificate.
 
-*Example link: `https://location-userX-api-staging.amp.apps.boston-a12a.openshiftworkshop.com/locations`*
+*Example link: `https://location-userX-api-staging.amp.apps.cinci-1b3f.openshiftworkshop.com/locations`*
 
 1. Refresh the page, and the locations should appear.
 
